@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VanillaJS example - Akkadu Multilingual SDK</title>
+  <link rel="stylesheet" href="https://akkadu-assets.s3.amazonaws.com/akkadu-rsi-widget/rsi-vanilla/1.0.58/interpretation-player.min.css" />
+  <link rel="stylesheet" href="https://akkadu-assets.s3.amazonaws.com/akkadu-rsi-widget/rsi-vanilla/1.0.58/rsi-subtitles.min.css" />
+</head>
+<body>
+  <div
+    id="akkadu-interpretation-player"
+    data-sdk-key="dc4249ee-06c1-4f80-845e-86e192f3e049"
+    data-room-name="gnqe"
+    data-position-menu="bottom"
+    data-is-box-shadow="true"
+    data-is-player-controlled="true"
+    data-has-subtitles="true">
+  </div> 
+  <div 
+    id="akkadu-rsi-subtitles" 
+    data-sdk-key="dc4249ee-06c1-4f80-845e-86e192f3e049" 
+    data-room-name="gnqe">
+  </div>
+  <script>
+    const component = document.querySelector('#akkadu-interpretation-player')
+    component.addEventListener('onReady', function (e) { 
+      console.info('Received onReady event:', e?.detail?.isReady);
+    });
+    component.addEventListener('onLanguageSelected', function (e) { 
+      console.info('Received onLanguageSelected event:', e?.detail?.languageSelected);
+    });
+    component.addEventListener('onConnectionStatusUpdated', function (e) { 
+      console.info('Received onConnectionStatusUpdated event:', e?.detail?.connection);
+    });
+  </script>
+  <!-- 🚨 Scripts must be loaded after the component -->
+  <script src="https://akkadu-assets.s3.amazonaws.com/akkadu-rsi-widget/rsi-vanilla/1.0.58/interpretation-player.min.js" ></script>
+  <script src="https://akkadu-assets.s3.amazonaws.com/akkadu-rsi-widget/rsi-vanilla/1.0.58/rsi-subtitles.min.js" ></script>
+</body>
+</html>
