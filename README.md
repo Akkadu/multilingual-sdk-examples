@@ -1,5 +1,5 @@
 # Akkadu Multilingual SDK
-Examples repo for Akkadu multilingual SDK, this repo contains ReactJS, VueJS and VanillJS examples.
+Examples repo for Akkadu Multilingual SDK, this repo contains ReactJS, VueJS and VanillJS examples.
 
 Each example contains the subtitels widget example and it can be removed as needed.
 

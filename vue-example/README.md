@@ -1,24 +1,17 @@
-# vue-example
+# Akkadu Multilingual SDK Vue Example
 
-## Project setup
-```
-yarn install
-```
+This project was bootstrapped with [Vue CLI](https://cli.vuejs.org/).
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Installation
+ `yarn install` or `npm install`
+## Available Scripts
+### `yarn serve`
 
-### Compiles and minifies for production
-```
-yarn build
-```
+Runs the app in the development mode.\
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+### `yarn build`
 
-### Lints and fixes files
-```
-yarn lint
-```
+Builds the app for production to the `build` folder.
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,4 +1,5 @@
 import { RsiApiInterpretationPlayer, RsiSubtitles } from '@akkadu/rsi-react'
+import './App.css'
 
 function App() {
   const handleOnReady = (e) => {
