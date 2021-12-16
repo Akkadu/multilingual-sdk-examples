@@ -13,7 +13,8 @@ For installation and more information specific to each example please read the c
 ### [VueJS Example](https://github.com/Akkadu/multilingual-sdk-examples/vue-example)
 ### [VanillaJS Example](https://github.com/Akkadu/multilingual-sdk-examples/vanillajs-example)
 
-## Demos
-### [ReactJS Demo](https://rsi-akkadu-react-demo.netlify.app/)
-### [VueJS Demo](https://rsi-akkadu-vue-demo.netlify.app/#/)
-### [VanillaJS Demo]()
+## Demo
+### [Live Demo](https://rsi-akkadu-react-demo.netlify.app/interpretation-player)
+
+## Live SDK key tester
+### [SDK key tester](https://rsi-akkadu-react-demo.netlify.app/sdk-key-tester)
