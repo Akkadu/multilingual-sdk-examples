@@ -16,5 +16,5 @@ For installation and more information specific to each example please read the c
 ## Demo
 ### [Live Demo](https://rsi-akkadu-react-demo.netlify.app/interpretation-player)
 
-## Live SDK key tester
-### [Test your SDK key](https://rsi-akkadu-react-demo.netlify.app/sdk-key-tester)
+## Test your SDK key
+### [live SDK key tester](https://rsi-akkadu-react-demo.netlify.app/sdk-key-tester)
