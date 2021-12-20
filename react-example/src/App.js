@@ -17,16 +17,16 @@ function App() {
   return (
     <div>
       <RsiApiInterpretationPlayer
-        sdkKey="dc4249ee-06c1-4f80-845e-86e192f3e049"
-        roomName="gnqe"
+        sdkKey="8abec1e6-844e-4881-afc5-1513479c8532"
+        roomName="gnma"
         onReady={handleOnReady}
         onLanguageSelected={handleOnLanguageSelected}
         onConnectionStatusUpdated={handleOnConnectionStatusUpdated}
         hasSubtitles={true}
       />
       <RsiSubtitles
-        sdkKey="dc4249ee-06c1-4f80-845e-86e192f3e049"
-        roomName="gnqe"
+        sdkKey="8abec1e6-844e-4881-afc5-1513479c8532"
+        roomName="gnma"
         onReady = {handleOnSubtitlesReady}
       />
     </div>

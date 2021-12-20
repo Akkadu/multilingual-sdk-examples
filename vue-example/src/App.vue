@@ -1,15 +1,15 @@
 <template>
   <div>
     <RsiApiInterpretationPlayer
-      sdkKey="dc4249ee-06c1-4f80-845e-86e192f3e049"
+      sdkKey="8abec1e6-844e-4881-afc5-1513479c8532"
       v-on:onLanguageSelected="handleOnLanguageSelected"
       v-on:onReady="handleOnReady"
-      room-name="gnqe"
+      room-name="gnma"
       :hasSubtitles="true"
       v-on:onConnectionStatusUpdated="handleOnConnectionStatusUpdated" />
     <RsiSubtitles
-        sdkKey="dc4249ee-06c1-4f80-845e-86e192f3e049"
-        roomName="gnqe"
+        sdkKey="8abec1e6-844e-4881-afc5-1513479c8532"
+        roomName="gnma"
         v-on:onReady="handleOnSubtitlesReady"/>
   </div>
 </template>
